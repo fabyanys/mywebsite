@@ -1,8 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #DAEAF8;
     height: 1000px;
 }
 
+/* Logo */
 .main-header {
     margin-right: 50px;
     display: flex;
@@ -16,6 +21,7 @@ body {
     width: 248px;
 }
 
+/* Navigation Bar */
 .nav {
     position: sticky;
     top: 20px;
@@ -51,4 +57,64 @@ nav>a {
 .nav a:hover {
     color: #5C72FF;
     transition: color 0.3s ease-in-out;
+}
+
+/* Main Content */
+main {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Greetings */
+.greetings p {
+    font-size: 30px;
+    color: #2E5077;
+    font-family: poppins;
+}
+
+.greetings h1 {
+    font-size: 48px;
+    color: #2E5077;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+/* Home Button */
+.btn {
+    background-color: #5C72FF;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    font-family: poppins;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#btncontactme {
+    background-color: rgba(190, 226, 255, 0.1);
+    color: #2E5077;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-left: 1rem;
+}
+
+#btncontactme:hover {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #2E5077;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
 }
