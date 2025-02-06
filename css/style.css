@@ -362,6 +362,8 @@ main {
 .skills-card {
     font-family: poppins;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .skills-card h3 {
