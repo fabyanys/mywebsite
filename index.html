@@ -162,36 +162,50 @@
 
         <!-- Project -->
         <section id="Project">
-            <div>
-                <h1>Project.</h1>
+            <div id="project-details">
+                <div>
+                    <h1>Project.</h1>
 
-                <div class="project-card">
-                    <div id="project-card1">
+                    <div class="project-card">
+                        <div id="project-card1">
                         
-                    </div>
+                        </div>
 
-                    <div id="project-card2">
+                        <div id="project-card2">
                         
-                    </div>
+                        </div>
 
-                    <div id="project-card3">
+                        <div id="project-card3">
                         
+                        </div>
                     </div>
                 </div>
-                
+                <div id="view-all-project">
+                    <a href="">View All Project</a>
+                </div>
             </div>
-            <div id="view-all-project">
-                <a href="">View All Project</a>
-            </div>
-            <div id="lingkaran5"></div>
             <div id="lingkaran6"></div>
+            <div id="lingkaran5"></div>
         </section>
 
         <!-- Contact Me -->
          <section id="ContactMe">
             <div>
                 <h1>Contact Me.</h1>
-                <div class="contact-me-card"></div>
+                <div class="contact-me-card">
+                    <form name="contact-me-form" onsubmit="return ValidityForm()" id="contact-me-form">
+                        <div class="input-container-all">
+                            <div class="input-container">
+                                <input type="text" name="name" id="name" placeholder="Full Name">
+                                <input type="email" name="email" id="email" placeholder="Email Address">
+                                <input type="number" name="phone" id="phone" placeholder="Phone Number">
+                            </div>
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+
+                        <button type="submit" id="submit-button">Submit</button>
+                    </form>
+                </div>
 
             </div>
          </section>

@@ -80,7 +80,7 @@ main {
 
 .greetings {
     display: flex;
-    flex-direction: column;  /* Menyusun item secara vertikal */
+    flex-direction: column;  
     height: auto;
     grid-auto-rows: auto;
 }
@@ -103,13 +103,13 @@ main {
 }
 
 .greetings .btn-container {
-    gap: 10px; /* Memberi jarak antar tombol */
+    gap: 10px; 
 }
 
 .social-media {
-    margin-top: 150px; /* Memberi jarak antara tombol dan sosial media */
+    margin-top: 150px; 
     display: flex;
-    gap: 20px; /* Memberi jarak antar ikon sosial media */
+    gap: 20px; 
 }
 
 .sosial-media a {
@@ -164,11 +164,11 @@ main {
 
 #lingkaran1 {
     position: absolute;
-    width: 750px; /* Ukuran lingkaran */
-    height: 750px; /* Ukuran lingkaran */
-    background-color: #5C72FF; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
-    filter: blur(150px); /* Efek blur */
+    width: 750px; 
+    height: 750px; 
+    background-color: #5C72FF; 
+    border-radius: 50%; 
+    filter: blur(150px); 
     right: -300px;
     top: 400px;
     z-index: -1;
@@ -176,11 +176,11 @@ main {
 
 #lingkaran2 {
     position: absolute;
-    width: 750px; /* Ukuran lingkaran */
-    height: 750px; /* Ukuran lingkaran */
-    background-color: #A1EBFF; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
-    filter: blur(150px); /* Efek blur */
+    width: 750px; 
+    height: 750px; 
+    background-color: #A1EBFF; 
+    border-radius: 50%; 
+    filter: blur(150px); 
     right: 200px;
     top: 700px;
     z-index: -1;
@@ -188,11 +188,11 @@ main {
 
 #lingkaran3 {
     position: absolute;
-    width: 750px; /* Ukuran lingkaran */
-    height: 750px; /* Ukuran lingkaran */
-    background-color: #5C72FF; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
-    filter: blur(150px); /* Efek blur */
+    width: 750px; 
+    height: 750px; 
+    background-color: #5C72FF; 
+    border-radius: 50%; 
+    filter: blur(150px); 
     left: 50px;
     top: 800px;
     z-index: -4;
@@ -200,11 +200,11 @@ main {
 
 #lingkaran4 {
     position: absolute;
-    width: 750px; /* Ukuran lingkaran */
-    height: 750px; /* Ukuran lingkaran */
-    background-color: #A1EBFF; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
-    filter: blur(150px); /* Efek blur */
+    width: 750px; 
+    height: 750px; 
+    background-color: #A1EBFF; 
+    border-radius: 50%; 
+    filter: blur(150px); 
     left: -150px;
     top: 400px;
     z-index: -3;
@@ -384,10 +384,10 @@ main {
 
 #circle1 {
     position: absolute;
-    width: 25px; /* Ukuran lingkaran */
-    height: 25px; /* Ukuran lingkaran */
-    background-color: #2E5077; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
+    width: 25px; 
+    height: 25px; 
+    background-color: #2E5077; 
+    border-radius: 50%; 
     left: 30px;
     top: 133px;
     z-index: 1000;
@@ -395,10 +395,10 @@ main {
 
 #circle2 {
     position: absolute;
-    width: 25px; /* Ukuran lingkaran */
-    height: 25px; /* Ukuran lingkaran */
-    background-color: #2E5077; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
+    width: 25px; 
+    height: 25px; 
+    background-color: #2E5077; 
+    border-radius: 50%; 
     left: 30px;
     top: 268px;
     z-index: 1000;
@@ -406,10 +406,10 @@ main {
 
 #circle3 {
     position: absolute;
-    width: 25px; /* Ukuran lingkaran */
-    height: 25px; /* Ukuran lingkaran */
-    background-color: #2E5077; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
+    width: 25px; 
+    height: 25px; 
+    background-color: #2E5077; 
+    border-radius: 50%; 
     left: 30px;
     top: 358px;
     z-index: 1000;
@@ -417,10 +417,10 @@ main {
 
 #circle4 {
     position: absolute;
-    width: 25px; /* Ukuran lingkaran */
-    height: 25px; /* Ukuran lingkaran */
-    background-color: #2E5077; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
+    width: 25px; 
+    height: 25px; 
+    background-color: #2E5077; 
+    border-radius: 50%; 
     left: 30px;
     top: 448px;
     z-index: 1000;
@@ -428,15 +428,16 @@ main {
 
 #line1 {
     position: absolute;
-    width: 6px; /* Ukuran garis */
-    height: 320px; /* Ukuran garis */
-    background-color: #2E5077; /* Warna garis */
+    width: 6px; 
+    height: 320px; 
+    background-color: #2E5077; 
     left: 40px;
     top: 150px;
     z-index: 1000;
 }
 
-#Project {
+/* Project */
+#project-details {
     background-color: rgba(190, 226, 255, 0.3);
     backdrop-filter: blur(20px);
     border-radius: 20px;
@@ -447,6 +448,8 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 70px;
+    z-index: 1;
 }
 
 #Project h1 {
@@ -542,26 +545,137 @@ main {
     justify-content: center;
 }
 
+/* Background */
 #lingkaran5 {
     position: absolute;
-    width: 750px; /* Ukuran lingkaran */
-    height: 750px; /* Ukuran lingkaran */
-    background-color: #5C72FF; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
-    filter: blur(150px); /* Efek blur */
-    right: -500px;
-    top: 400px;
+    width: 750px; 
+    height: 750px; 
+    background-color: #5C72FF; 
+    border-radius: 50%; 
+    filter: blur(150px); 
+    right: -300px;
+    top: 2400px;
     z-index: -1000;
 }
 
 #lingkaran6 {
     position: absolute;
-    width: 750px; /* Ukuran lingkaran */
-    height: 750px; /* Ukuran lingkaran */
-    background-color: #A1EBFF; /* Warna latar belakang lingkaran */
-    border-radius: 50%; /* Membuat bentuk lingkaran */
-    filter: blur(150px); /* Efek blur */
-    left: -500px;
-    top: 400px;
+    width: 750px; 
+    height: 750px; 
+    background-color: #A1EBFF; 
+    border-radius: 50%; 
+    filter: blur(150px); 
+    left: -300px;
+    top: 2400px;
     z-index: -1000;
+}
+
+/* Contact Me */
+#ContactMe {
+    position: relative;
+    margin-top: 20vh;
+    background-color: rgba(190, 226, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 60%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-me-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+#ContactMe h1 {
+    font-family: poppins;
+    font-size: 48px;
+    color: #5C72FF;
+    display: flex;
+    justify-content: center;
+}
+
+.input-container-all {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#name {
+    width: auto;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(190, 226, 255, 0.1);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+    font-family: poppins;
+}
+
+#email {
+    width: auto;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(190, 226, 255, 0.1);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+    font-family: poppins;
+}
+
+#phone {
+    width: auto;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(190, 226, 255, 0.1);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+    font-family: poppins;
+}
+
+#message {
+    width: auto;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(190, 226, 255, 0.1);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+    font-family: poppins;
+}
+
+#submit-button {
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(190, 226, 255, 0.1);
+    color: #2E5077;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+#submit-button:hover {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
 }
