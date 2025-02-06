@@ -72,7 +72,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 600px;
+    height: 80vh;
 }
 
 /* Greetings */
@@ -192,7 +192,7 @@ main {
     background-color: #5C72FF; /* Warna latar belakang lingkaran */
     border-radius: 50%; /* Membuat bentuk lingkaran */
     filter: blur(150px); /* Efek blur */
-    left: 150px;
+    left: 50px;
     top: 1000px;
     z-index: -1;
 }
@@ -207,4 +207,94 @@ main {
     left: -150px;
     top: 600px;
     z-index: -3;
+}
+
+/* About Me */
+#AboutMe {
+    margin-top: 100px;
+    height: 600px;
+}
+
+#AboutMeBody {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+#AboutMeText {
+    font-family: poppins;
+    font-size: 48px;
+    color: #5C72FF;
+}
+
+#fysphoto2 {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
+
+#AboutMeDetails {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#AboutMeBody h2 {
+    font-family: poppins;
+    font-size: 30px;
+    color: #2E5077;
+    margin-top: 20px;
+}
+
+#AboutMeBody p {
+    font-family: poppins;
+    font-size: 18px;
+    color: #2E5077;
+    text-align: justify;
+}
+
+.contact-card {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    flex-direction: column;
+    margin: 10px 0;
+    font-family: poppins;
+}
+
+.email-contact-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.phone-contact-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.instagram-contact-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.linkedin-contact-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.address-contact-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
