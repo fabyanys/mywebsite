@@ -193,8 +193,8 @@ main {
     border-radius: 50%; /* Membuat bentuk lingkaran */
     filter: blur(150px); /* Efek blur */
     left: 50px;
-    top: 1000px;
-    z-index: -1;
+    top: 800px;
+    z-index: -4;
 }
 
 #lingkaran4 {
@@ -205,14 +205,14 @@ main {
     border-radius: 50%; /* Membuat bentuk lingkaran */
     filter: blur(150px); /* Efek blur */
     left: -150px;
-    top: 600px;
+    top: 400px;
     z-index: -3;
 }
 
 /* About Me */
 #AboutMe {
     margin-top: 100px;
-    height: 600px;
+    height: auto;
 }
 
 #AboutMeBody {
@@ -297,4 +297,131 @@ main {
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
+}
+
+/* Education & Skills */
+#EducationSkills {
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.education {
+    background-color: rgba(190, 226, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.education-card {
+    font-family: poppins;
+    width: 100%;
+    padding-left: 150px;
+}
+
+.education h2 {
+    font-family: poppins;
+    font-size: 30px;
+    color: #5C72FF;
+}
+
+.education-card h3 {
+    font-size: 18px;
+    color: #2E5077;
+}
+
+.education-card p {
+    font-size: 18px;
+    color: #2E5077;
+}
+
+.skills {
+    background-color: rgba(190, 226, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h2 {
+    font-family: poppins;
+    font-size: 30px;
+    color: #5C72FF;
+}
+
+.skills-card {
+    font-family: poppins;
+    width: 100%;
+}
+
+.skills-card h3 {
+    font-size: 18px;
+    color: #2E5077;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle1 {
+    position: absolute;
+    width: 25px; /* Ukuran lingkaran */
+    height: 25px; /* Ukuran lingkaran */
+    background-color: #2E5077; /* Warna latar belakang lingkaran */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    left: 30px;
+    top: 133px;
+    z-index: 1000;
+}
+
+#circle2 {
+    position: absolute;
+    width: 25px; /* Ukuran lingkaran */
+    height: 25px; /* Ukuran lingkaran */
+    background-color: #2E5077; /* Warna latar belakang lingkaran */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    left: 30px;
+    top: 268px;
+    z-index: 1000;
+}
+
+#circle3 {
+    position: absolute;
+    width: 25px; /* Ukuran lingkaran */
+    height: 25px; /* Ukuran lingkaran */
+    background-color: #2E5077; /* Warna latar belakang lingkaran */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    left: 30px;
+    top: 358px;
+    z-index: 1000;
+}
+
+#circle4 {
+    position: absolute;
+    width: 25px; /* Ukuran lingkaran */
+    height: 25px; /* Ukuran lingkaran */
+    background-color: #2E5077; /* Warna latar belakang lingkaran */
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+    left: 30px;
+    top: 448px;
+    z-index: 1000;
+}
+
+#line1 {
+    position: absolute;
+    width: 6px; /* Ukuran garis */
+    height: 320px; /* Ukuran garis */
+    background-color: #2E5077; /* Warna garis */
+    left: 40px;
+    top: 150px;
+    z-index: 1000;
 }
