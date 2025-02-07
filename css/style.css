@@ -647,6 +647,62 @@ main {
     z-index: 1000;
 }
 
+@media screen and (max-width: 1200px) {
+    #EducationSkills {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .education {
+        width: 100%;
+    }
+
+    .skills {
+        width: 100%;
+    }
+
+    .skills-card img {
+        width: 150px;
+    }
+
+    .skills-card h3 {
+        font-size: 14px;
+    }
+
+    .education-card h3 {
+        font-size: 14px;
+    }
+
+    #circle1 {
+        position: relative;
+        left: 0;
+        top: 2vh;
+    }
+    #circle2 {
+        position: relative;
+        left: 0;
+        top: 19vh;
+    }
+    #circle3 {
+        position: relative;
+        left: 0;
+        top: 29vh;
+    }
+    #circle4 {
+        position: relative;
+        left: 0;
+        top: 39vh;
+    }
+
+    #line1 {
+        position: relative;
+        left: 1.1vw;
+        top: -14vh;
+    }
+    
+}
+
 /* Project */
 #project-details {
     background-color: rgba(190, 226, 255, 0.3);
@@ -755,6 +811,8 @@ main {
     display: flex;
     justify-content: center;
 }
+
+
 
 /* Background */
 #lingkaran5 {
