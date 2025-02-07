@@ -6,6 +6,17 @@ html {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1200px) {
+    html {
+        width: 100vw;
+        box-sizing: border-box;
+    }
+    
+}
+
+/* body * {
+    outline: 1px solid red; /* Cek elemen yang keluar dari layar 
+} */
 body {
     background-color: #DAEAF8;
     height: 1000px;
@@ -28,7 +39,7 @@ body {
 
 @media screen and (max-width: 1200px) {
     .logo {
-        width: 200px;
+        width: 255px;
     }
 
     .main-header {
@@ -95,6 +106,34 @@ main {
     padding: 20px;
 }
 
+@media screen and (max-width: 1200px) {
+    main {
+        margin-top: 1vh;
+    }
+
+    #lingkaran1 {
+        display: none;
+    }
+
+    #lingkaran5 {
+        display: none;
+    }
+
+    #lingkaran7 {
+        left: 25%;
+        right: 0;
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .lingkaran {
+        display: none;
+    }
+    
+}
+
 /* Home */
 #Home {
     display: flex;
@@ -148,10 +187,71 @@ main {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
+@media screen and (max-width: 1200px) {
+    .greetings h1 {
+        font-size: 30px;
+    }
+
+    .greetings p {
+        font-size: 18px;
+    }
+
+    .social-media {
+        margin-top: 50px;
+    }
+    
+    #home {
+        display: flex;
+        gap: 20px;
+    }
+
+    .btn {
+        padding: 10px 20px 10px 20px;
+        font-size: 14px;
+        margin-top: 1vh;
+    }
+
+    #btncontactme {
+        padding: 10px 20px 10px 20px;
+        font-size: 11px;
+    }
+
+    #btnaboutme {
+        padding: 10px 20px 10px 20px;
+        font-size: 11px;
+    }
+
+    .greetings h1 {
+        margin-bottom: 50px;
+    }
+
+    .social-media {
+        margin-top: 50px;
+        scale: 1;
+        gap: 1vw;
+    }
+
+    .social-media a {
+        scale: 0.6;
+    }
+
+    .greetings {
+        display: flex;
+
+    }
+}
+
 /* Home Photo */
 .HomePhoto img {
     width: 400px;
     height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .HomePhoto img {
+        width: 200px;
+    }
+    
 }
 
 /* Home Button */
@@ -199,6 +299,7 @@ main {
     right: -300px;
     top: 400px;
     z-index: -1;
+    overflow: hidden;
 }
 
 #lingkaran2 {
@@ -255,7 +356,7 @@ main {
     font-size: 48px;
     color: #5C72FF;
 }
-
+    
 #fysphoto2 {
     width: 300px;
     height: auto;
@@ -325,6 +426,86 @@ main {
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    #AboutMe {
+        margin-top: 1vh;
+    }
+
+    #AboutMeBody {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #AboutMeText {
+        font-size: 30px;
+    }
+
+    #AboutMeBody h2 {
+        font-size: 18px;
+        margin-block-end: 0;
+    }
+
+    #AboutMeBody p {
+        font-size: 11px;
+        margin-bottom: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-top: 10px;
+    }
+
+    #AboutMeDetails {
+        gap: 5px;
+    }
+
+    #fysphoto2 {
+        width: 150px;
+        height: auto;
+    }
+
+    .contact-card img {
+        scale: 0.6;
+    }
+
+    .contact-card span {
+        font-size: 11px;
+    }
+
+    .contact-card {
+        margin: 0;    
+    }
+
+    .email-contact-card {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 0px;
+    }
+    .phone-contact-card {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 0px;
+    }
+    .instagram-contact-card {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 0px;
+    }
+    .linkedin-contact-card {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 0px;
+    }
+    .address-contact-card {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 0px;
+    }
 }
 
 /* Education & Skills */
@@ -586,6 +767,7 @@ main {
     right: -300px;
     top: 2400px;
     z-index: -1000;
+    overflow: hidden;
 }
 
 #lingkaran6 {
@@ -748,7 +930,7 @@ footer {
     padding: 20px;
     font-family: poppins;
     font-size: 18px;
-    width: 100%;
+    width: auto;
 }
 
 .nav-footer {
