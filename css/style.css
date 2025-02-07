@@ -595,6 +595,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1px;
+    width: 100%;
 }
 
 #ContactMe h1 {
@@ -609,13 +610,14 @@ main {
 .input-container-all {
     display: flex;
     justify-content: center;
-    gap: 5vw;
+    gap: 2vw;
 }
 
 .input-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 35vw;
 }
 
 #name {
@@ -661,7 +663,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 #message {
-    width: auto;
+    width: 100%;
     padding: 15px 30px 15px 30px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
