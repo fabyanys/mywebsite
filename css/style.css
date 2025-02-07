@@ -812,7 +812,45 @@ main {
     justify-content: center;
 }
 
+@media screen and (max-width: 1200px) {
+    #project-details {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
 
+    #Project h1 {
+        font-size: 30px;
+    }
+
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #project-card1 {
+        width: 100%;
+    }
+    #project-card2 {
+        width: 100%;
+    }
+    #project-card3 {
+        width: 100%;
+    }
+
+    #view-all-project {
+        padding: 10px 20px 10px 20px;
+        font-size: 18px;
+        margin-top: 1vh;
+    }
+
+    #view-all-project a {
+        font-size: 18px;
+    }
+    
+}
 
 /* Background */
 #lingkaran5 {
