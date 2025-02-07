@@ -26,6 +26,17 @@ body {
     width: 248px;
 }
 
+@media screen and (max-width: 1200px) {
+    .logo {
+        width: 200px;
+    }
+
+    .main-header {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 /* Navigation Bar */
 .nav {
     position: sticky;
@@ -46,6 +57,18 @@ body {
     position: fixed;
     right: 50px;
     top: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 20px;
+        top: auto;
+    }
+    
 }
 
 nav {
@@ -327,8 +350,11 @@ main {
 
 .education-card {
     font-family: poppins;
-    width: 100%;
-    padding-left: 150px;
+    width: auto;
+    padding-left: 2vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 2vw;
 }
 
 .education h2 {
