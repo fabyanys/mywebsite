@@ -110,21 +110,6 @@ main {
     main {
         margin-top: 1vh;
     }
-
-    #lingkaran1 {
-        display: none;
-    }
-
-    #lingkaran5 {
-        display: none;
-    }
-
-    #lingkaran7 {
-        left: 25%;
-        right: 0;
-        display: none;
-    }
-    
 }
 
 @media screen and (max-width: 800px) {
@@ -336,6 +321,20 @@ main {
     left: -150px;
     top: 400px;
     z-index: -3;
+}
+
+@media screen and (max-width: 1200px) {
+    #lingkaran1 {
+        right: 0vw;
+        top: 40vh;
+        width: 500px;
+        height: 500px;
+        filter: blur(100px);
+        overflow: hidden;
+        border-top-right-radius:0 ;
+        border-bottom-right-radius: 0;
+        z-index: -3;
+    }
 }
 
 /* About Me */
@@ -883,6 +882,19 @@ main {
     z-index: -1000;
 }
 
+@media screen and (max-width: 1200px) {
+    #lingkaran5 {
+        right: 0vw;
+        width: 500px;
+        height: 500px;
+        filter: blur(100px);
+        overflow: hidden;
+        border-top-right-radius:0 ;
+        border-bottom-right-radius: 0;
+        z-index: -3;
+    }
+}
+
 /* Contact Me */
 #ContactMe {
     position: relative;
@@ -1090,9 +1102,11 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     #lingkaran7 {
-        position: relative;
-        left: 0;
-        top: 2vh;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 500vh;
+        transform: translate(-50%, -50%);
     }
     
 }
