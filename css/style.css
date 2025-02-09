@@ -670,6 +670,10 @@ main {
         font-size: 14px;
     }
 
+    .education-card p {
+        font-size: 14px;
+    }
+
     .education-card h3 {
         font-size: 14px;
     }
@@ -677,28 +681,29 @@ main {
     #circle1 {
         position: relative;
         left: 0;
-        top: 2vh;
+        top: 1.3vh;
     }
     #circle2 {
         position: relative;
         left: 0;
-        top: 19vh;
+        top: 10.3vh;
     }
     #circle3 {
         position: relative;
         left: 0;
-        top: 29vh;
+        top: 15.9vh;
     }
     #circle4 {
         position: relative;
         left: 0;
-        top: 39vh;
+        top: 21.3vh;
     }
 
     #line1 {
         position: relative;
-        left: 1.1vw;
-        top: -14vh;
+        left: 1vw;
+        top: -10vh;
+        height: 30vh;
     }
     
 }
@@ -1010,6 +1015,88 @@ input[type="number"]::-webkit-inner-spin-button {
     z-index: -1000;
 }
 
+@media screen and (max-width: 1200px) {
+    #ContactMe {
+        background-color: rgba(190, 226, 255, 0.3);
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 70px;
+        z-index: 1;
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+
+    #contact-me-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        width: 40vw;
+    }
+
+    #ContactMe h1 {
+        font-size: 30px;
+    }
+
+    .input-container-all {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    #name {
+        max-width: 100%;
+    }
+
+    #email {
+        max-width: 100%;
+    }
+
+    #phone {
+        max-width: 100%;
+    }
+
+    #message {
+        width: 100%;
+        max-width: 100%;
+        height: 30vh;
+        box-sizing: border-box;
+    }
+
+    #submit-button {
+        padding: 10px 20px 10px 20px;
+        font-size: 18px;
+        margin-top: 4vh;
+        width: auto;
+    }
+
+    #submit-button a {
+        font-size: 18px;
+    }
+
+    #lingkaran7 {
+        position: relative;
+        left: 0;
+        top: 2vh;
+    }
+    
+}
+
 /* Footer */
 footer {
     margin-top: 100px;
@@ -1109,4 +1196,22 @@ footer {
     font-size: 18px;
     font-weight: 250;
     color: #DAEAF8;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-container h3 {
+        font-size: 14px;
+    }
+    
+    .footer-container p {
+        font-size: 14px;
+    }
+
+    .footer-bottom{
+        font-size: 14px;
+    }
+
+    .footer-container a {
+        font-size: 14px;
+    }
 }
