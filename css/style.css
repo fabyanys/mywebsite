@@ -112,12 +112,12 @@ main {
     }
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .lingkaran {
         display: none;
     }
     
-}
+} */
 
 /* Home */
 #Home {
@@ -531,10 +531,10 @@ main {
 .education-card {
     font-family: poppins;
     width: auto;
-    padding-left: 2vw;
     display: flex;
     justify-content: space-around;
     gap: 2vw;
+    position: relative;
 }
 
 .education h2 {
@@ -592,47 +592,49 @@ main {
     width: 250px;
 }
 
+.educard {
+    position: relative;
+}
+
+.EducationDetails {
+    margin-left: 40px;
+}
+
+.education-card::before {
+    content: "";
+    position: relative;
+    left: 2.5vw;
+    top: 2vh;
+    width: 4px;
+    height: 70%;
+    background: #2E5077;
+    display: none;
+}
+
 #circle1 {
     position: absolute;
-    width: 25px; 
-    height: 25px; 
+    width: 20px; 
+    height: 20px; 
     background-color: #2E5077; 
     border-radius: 50%; 
-    left: 30px;
-    top: 133px;
     z-index: 1000;
 }
 
 #circle2 {
     position: absolute;
-    width: 25px; 
-    height: 25px; 
+    width: 20px; 
+    height: 20px; 
     background-color: #2E5077; 
     border-radius: 50%; 
-    left: 30px;
-    top: 268px;
     z-index: 1000;
 }
 
 #circle3 {
     position: absolute;
-    width: 25px; 
-    height: 25px; 
+    width: 20px; 
+    height: 20px; 
     background-color: #2E5077; 
     border-radius: 50%; 
-    left: 30px;
-    top: 358px;
-    z-index: 1000;
-}
-
-#circle4 {
-    position: absolute;
-    width: 25px; 
-    height: 25px; 
-    background-color: #2E5077; 
-    border-radius: 50%; 
-    left: 30px;
-    top: 448px;
     z-index: 1000;
 }
 
@@ -675,34 +677,6 @@ main {
 
     .education-card h3 {
         font-size: 14px;
-    }
-
-    #circle1 {
-        position: relative;
-        left: 0;
-        top: 1.3vh;
-    }
-    #circle2 {
-        position: relative;
-        left: 0;
-        top: 10.3vh;
-    }
-    #circle3 {
-        position: relative;
-        left: 0;
-        top: 15.9vh;
-    }
-    #circle4 {
-        position: relative;
-        left: 0;
-        top: 21.3vh;
-    }
-
-    #line1 {
-        position: relative;
-        left: 1vw;
-        top: -10vh;
-        height: 30vh;
     }
     
 }
@@ -1107,6 +1081,7 @@ input[type="number"]::-webkit-inner-spin-button {
         right: 50%;
         top: 500vh;
         transform: translate(-50%, -50%);
+        width: 500px;
     }
     
 }
