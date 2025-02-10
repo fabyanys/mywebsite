@@ -337,6 +337,35 @@ main {
     }
 }
 
+@media screen and (max-width: 800px) {
+    #lingkaran1 {
+        width: 400px;
+        height: 400px;
+        filter: blur(78px);
+    }
+
+    #lingkaran2 {
+        width: 400px;
+        height: 400px;
+        filter: blur(80px);
+        right: 100px;
+    }
+
+    #lingkaran3 {
+        width: 400px;
+        height: 400px;
+        filter: blur(80px);
+        top: 110vh;
+        left: 3vw;
+    }
+
+    #lingkaran4 {
+        width: 400px;
+        height: 400px;
+        filter: blur(80px);
+    }
+}
+
 /* About Me */
 #AboutMe {
     margin-top: 100px;
@@ -869,6 +898,20 @@ main {
     }
 }
 
+@media screen and (max-width: 800px) {
+    #lingkaran5 {
+        width: 400px;
+        height: 400px;
+        filter: blur(80px);
+    }
+
+    #lingkaran6 {
+        width: 400px;
+        height: 400px;
+        filter: blur(60px);
+    }
+}
+
 /* Contact Me */
 #ContactMe {
     position: relative;
@@ -1084,6 +1127,15 @@ input[type="number"]::-webkit-inner-spin-button {
         width: 500px;
     }
     
+}
+
+@media screen and (max-width: 800px) {
+    #lingkaran7 {
+        width: 400px;
+        height: 400px;
+        filter: blur(100px);
+        top: 490vh;
+    }
 }
 
 /* Footer */
