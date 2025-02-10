@@ -48,6 +48,12 @@ body {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .logo {
+        scale: 0.8;
+    }
+}
+
 /* Navigation Bar */
 .nav {
     position: sticky;
@@ -98,12 +104,29 @@ nav>a {
     transition: color 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 665px) {
+    nav a {
+        font-size: 12px;
+    }
+
+    .nav {
+        width: 250px;
+    }
+}
+
 /* Main Content */
 main {
     margin-top: 10px;
     margin-left: 100px;
     margin-right: 100px;
     padding: 20px;
+}
+
+@media screen and (max-width: 665px) {
+    main {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -274,6 +297,38 @@ main {
     transform: translateY(-5px);
 }
 
+@media screen and (max-width: 665px) {
+    .HomePhoto img {
+        width: 150px;
+        height: auto;
+    }
+
+    .btn-container {
+        display: grid;
+    }
+
+    .btn-container a {
+        margin-top: 0;
+        width: max-content;
+    }
+
+    #btncontactme {
+        margin: 0;
+    }
+
+    .greetings h1 {
+        font-size: 20px;
+    }
+
+    .greetings p {
+        font-size: 12px;
+    }
+
+    #Home {
+        height: 50vh;
+    }
+}
+
 #lingkaran1 {
     position: absolute;
     width: 750px; 
@@ -363,6 +418,28 @@ main {
         width: 400px;
         height: 400px;
         filter: blur(80px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #lingkaran1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    #lingkaran2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    #lingkaran3 {
+        width: 300px;
+        height: 300px;
+    }
+
+    #lingkaran4 {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -533,6 +610,24 @@ main {
         align-items: center;
         gap: 5px;
         margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #fysphoto2 {
+        display: none;
+    }
+
+    #AboutMeDetails {
+        width: 100%;
+    }
+
+    #AboutMeText {
+        font-size: 20px;
+    }
+
+    #AboutMeDetails h2 {
+        font-size: 14px;
     }
 }
 
@@ -710,6 +805,32 @@ main {
     
 }
 
+@media screen and (max-width: 665px) {
+    .education h2 {
+        font-size: 20px;
+    }
+
+    .education-card h3 {
+        font-size: 14px;
+    }   
+    
+    .education-card p {
+        font-size: 12px;
+    }
+
+    .skills h2 {
+        font-size: 20px;
+    }
+
+    .education {
+        width: auto;
+    }
+
+    .skills {
+        width: auto;
+    }
+}
+
 /* Project */
 #project-details {
     background-color: rgba(190, 226, 255, 0.3);
@@ -859,6 +980,12 @@ main {
     
 }
 
+@media screen and (max-width: 665px) {
+    #project-details {
+        width: auto;
+    }
+}
+
 /* Background */
 #lingkaran5 {
     position: absolute;
@@ -909,6 +1036,16 @@ main {
         width: 400px;
         height: 400px;
         filter: blur(60px);
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #lingkaran6 {
+        display: none;
+    }
+
+    #lingkaran5 {
+        width: 100%;
     }
 }
 
@@ -1138,6 +1275,12 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 }
 
+@media screen {
+    #lingkaran7 {
+        width: 100%;
+    }    
+}
+
 /* Footer */
 footer {
     margin-top: 100px;
@@ -1254,5 +1397,9 @@ footer {
 
     .footer-container a {
         font-size: 14px;
+    }
+
+    .contact-footer p {
+        margin-bottom: 10px;
     }
 }
