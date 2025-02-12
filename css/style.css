@@ -122,19 +122,18 @@ main {
     padding: 20px;
 }
 
-@media screen and (max-width: 665px) {
-    main {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-}
-
 @media screen and (max-width: 1200px) {
     main {
         margin-top: 1vh;
     }
 }
 
+@media screen and (max-width: 665px) {
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 /* @media screen and (max-width: 800px) {
     .lingkaran {
         display: none;
@@ -614,8 +613,14 @@ main {
 }
 
 @media screen and (max-width: 665px) {
+    #AboutMeBody{
+        display: flex;
+        flex-direction: column;
+    }
+
     #fysphoto2 {
-        display: none;
+        width: 100px;
+        margin-top: 0;
     }
 
     #AboutMeDetails {
@@ -780,11 +785,11 @@ main {
     }
 
     .education {
-        width: 100%;
+        width: auto;
     }
 
     .skills {
-        width: 100%;
+        width: auto;
     }
 
     .skills-card img {
@@ -945,7 +950,7 @@ main {
         display: flex;
         flex-direction: column;
         gap: 50px;
-        width: 100%;
+        width: auto;
     }
 
     #Project h1 {
@@ -983,6 +988,26 @@ main {
 @media screen and (max-width: 665px) {
     #project-details {
         width: auto;
+    }
+
+    #project-card1 {
+        width: 100px;
+        height: 166.666px;
+    }
+
+    #project-card2 {
+        width: 100px;
+        height: 166.666px;
+    }
+
+    #project-card3 {
+        width: 100px;
+        height: 166.666px;
+    }
+
+    #view-all-project a {
+        font-size: 12px;
+        text-align: center;
     }
 }
 
@@ -1195,7 +1220,7 @@ input[type="number"]::-webkit-inner-spin-button {
         flex-direction: column;
         padding-bottom: 70px;
         z-index: 1;
-        width: 100%;
+        width: auto;
         position: relative;
         left: 0;
     }
@@ -1275,8 +1300,13 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 }
 
-@media screen {
+@media screen and (max-width: 665px) {
+    #contact-me-form {
+        width: auto;
+    }
+
     #lingkaran7 {
+        top: 400vh;
         width: 100%;
     }    
 }
@@ -1289,6 +1319,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .footer-container {
@@ -1397,6 +1428,34 @@ footer {
 
     .footer-container a {
         font-size: 14px;
+    }
+
+    .contact-footer p {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-container h3 {
+        font-size: 12px;
+    }
+    
+    .footer-container p {
+        font-size: 12px;
+    }
+
+    .footer-bottom{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-container a {
+        font-size: 12px;
     }
 
     .contact-footer p {
