@@ -104,7 +104,7 @@ nav>a {
     transition: color 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 768px) {
     nav a {
         font-size: 12px;
     }
@@ -128,7 +128,7 @@ main {
     }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 768px) {
     main {
         margin-left: 10px;
         margin-right: 10px;
@@ -296,7 +296,7 @@ main {
     transform: translateY(-5px);
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 768px) {
     .HomePhoto img {
         width: 150px;
         height: auto;
@@ -612,7 +612,7 @@ main {
     }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 768px) {
     #AboutMeBody{
         display: flex;
         flex-direction: column;
@@ -810,7 +810,7 @@ main {
     
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 768px) {
     .education h2 {
         font-size: 20px;
     }
@@ -985,7 +985,7 @@ main {
     
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 768px) {
     #project-details {
         width: auto;
     }
@@ -1064,7 +1064,7 @@ main {
     }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 768px) {
     #lingkaran6 {
         display: none;
     }
@@ -1300,7 +1300,7 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 768px) {
     #contact-me-form {
         width: auto;
     }
@@ -1435,7 +1435,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 768px) {
     .footer-container {
         display: flex;
         flex-direction: column;
