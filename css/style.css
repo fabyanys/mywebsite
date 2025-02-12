@@ -986,6 +986,10 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+    #Project h1 {
+        font-size: 20px;
+    }
+
     #project-details {
         width: auto;
     }
@@ -1251,7 +1255,7 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     #name {
-        max-width: 100%;
+        max-width: auto;
     }
 
     #email {
@@ -1301,8 +1305,40 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 768px) {
+    #name {
+        padding: 5px 10px 5px 10px;
+        border-radius: 10px;
+    }
+    
+    #email {
+        padding: 5px 10px 5px 10px;
+        border-radius: 10px;
+    }
+
+    #phone {
+        padding: 5px 10px 5px 10px;
+        border-radius: 10px;
+    }
+
+    #message {
+        padding: 5px 10px 5px 10px;
+        border-radius: 10px;
+    }
+
+    #ContactMe h1 {
+        font-size: 20px;
+    }
+
     #contact-me-form {
         width: auto;
+    }
+    
+    #submit-button {
+        font-size: 12px;
+    }
+
+    #submit-button a {
+        font-size: 12px;
     }
 
     #lingkaran7 {
